@@ -1,1 +1,1 @@
-https://kookmin-hub.vercel.app/
+https://kookminhub.vercel.app/
