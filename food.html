@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Guide - Kookmin Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">K</div>
+                    <span class="logo-text">Kookmin Hub</span>
+                </a>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="community.html" class="nav-link">Community</a>
+                    <a href="food.html" class="nav-link active">Food Guide</a>
+                    <a href="guides.html" class="nav-link">Guides</a>
+                    <a href="events.html" class="nav-link">Events</a>
+                    <a href="about.html" class="nav-link">About</a>
+                </div>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section accent-hero">
+            <div class="container">
+                <h1 class="page-title">Eat Like a Local</h1>
+                <p class="page-subtitle">Discover the best cheap, delicious, and foreigner-friendly restaurants around Kookmin University. Eat well without breaking the bank.</p>
+            </div>
+        </section>
+
+        <!-- Category Filter -->
+        <section class="section muted-bg">
+            <div class="container">
+                <h2 class="section-title">Browse by Category</h2>
+                <div class="categories-grid">
+                    <button class="category-card">
+                        <div class="category-emoji">💰</div>
+                        <h3>Budget</h3>
+                        <p>Under ₩7,000 per meal</p>
+                    </button>
+
+                    <button class="category-card">
+                        <div class="category-emoji">🍜</div>
+                        <h3>Korean</h3>
+                        <p>Traditional & street food</p>
+                    </button>
+
+                    <button class="category-card">
+                        <div class="category-emoji">🌍</div>
+                        <h3>International</h3>
+                        <p>Asian & Western cuisine</p>
+                    </button>
+
+                    <button class="category-card">
+                        <div class="category-emoji">👥</div>
+                        <h3>Group-Friendly</h3>
+                        <p>Great for sharing & hangouts</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurants Grid -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Top Restaurants Near Kookmin</h2>
+                <div class="restaurants-grid">
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=160&fit=crop" alt="Kimchi House">
+                        <div class="restaurant-content">
+                            <h3>Kimchi House</h3>
+                            <p class="cuisine">Korean Traditional</p>
+                            <div class="rating">⭐ 4.8 (234 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩5,000-12,000</div>
+                                <div>🚶 5 min walk</div>
+                                <div>🍽️ Local, Casual</div>
+                            </div>
+                            <p class="description">Authentic Korean home-style cooking. Famous for kimchi jjigae and galbi. Very affordable and student-friendly.</p>
+                            <div class="specialties">
+                                <span>Kimchi Jjigae</span>
+                                <span>Galbi</span>
+                                <span>Bibimbap</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1521390292340-fea1dd4ed22f?w=300&h=160&fit=crop" alt="Ramen Alley">
+                        <div class="restaurant-content">
+                            <h3>Ramen Alley</h3>
+                            <p class="cuisine">Japanese Ramen</p>
+                            <div class="rating">⭐ 4.6 (189 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩6,000-9,000</div>
+                                <div>🚶 8 min walk</div>
+                                <div>🍽️ Hip, Student Haven</div>
+                            </div>
+                            <p class="description">Popular student spot near campus. Delicious tonkotsu and miso ramen. Perfect for late-night cravings.</p>
+                            <div class="specialties">
+                                <span>Tonkotsu Ramen</span>
+                                <span>Miso Ramen</span>
+                                <span>Gyoza</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1648855081100-cd7f27be1cb4?w=300&h=160&fit=crop" alt="Tteokbokki Street">
+                        <div class="restaurant-content">
+                            <h3>Tteokbokki Street</h3>
+                            <p class="cuisine">Korean Street Food</p>
+                            <div class="rating">⭐ 4.7 (412 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩3,000-5,000</div>
+                                <div>🚶 3 min walk</div>
+                                <div>🍽️ Budget-Friendly, Social</div>
+                            </div>
+                            <p class="description">Best value on campus! Amazing tteokbokki, odeng, and kimbap. Perfect for sharing with friends.</p>
+                            <div class="specialties">
+                                <span>Tteokbokki</span>
+                                <span>Odeng</span>
+                                <span>Kimbap</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1585032226651-759b8d3a7c5b?w=300&h=160&fit=crop" alt="Vietnam Express">
+                        <div class="restaurant-content">
+                            <h3>Vietnam Express</h3>
+                            <p class="cuisine">Vietnamese Pho</p>
+                            <div class="rating">⭐ 4.5 (156 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩7,000-10,000</div>
+                                <div>🚶 10 min walk</div>
+                                <div>🍽️ Welcoming, Authentic</div>
+                            </div>
+                            <p class="description">Great Vietnamese food. Fresh ingredients and authentic flavors. Owner is very welcoming to international students.</p>
+                            <div class="specialties">
+                                <span>Pho</span>
+                                <span>Banh Mi</span>
+                                <span>Spring Rolls</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561404?w=300&h=160&fit=crop" alt="Noodle Lab">
+                        <div class="restaurant-content">
+                            <h3>Noodle Lab</h3>
+                            <p class="cuisine">Korean Noodles</p>
+                            <div class="rating">⭐ 4.9 (267 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩5,500-8,000</div>
+                                <div>🚶 7 min walk</div>
+                                <div>🍽️ Modern, Instagrammable</div>
+                            </div>
+                            <p class="description">Trendy spot for kalguksu, jjamppong, and creamy pasta noodles. Instagram-worthy and delicious.</p>
+                            <div class="specialties">
+                                <span>Kalguksu</span>
+                                <span>Jjamppong</span>
+                                <span>Cream Pasta</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1626082927389-6cd097cfd1ec?w=300&h=160&fit=crop" alt="Chicken Paradise">
+                        <div class="restaurant-content">
+                            <h3>Chicken Paradise</h3>
+                            <p class="cuisine">Korean Fried Chicken</p>
+                            <div class="rating">⭐ 4.7 (345 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩10,000-15,000</div>
+                                <div>🚶 12 min walk</div>
+                                <div>🍽️ Social, Fun</div>
+                            </div>
+                            <p class="description">Best fried chicken in the area! Perfect for group hangouts. Try the soy garlic flavor.</p>
+                            <div class="specialties">
+                                <span>Fried Chicken</span>
+                                <span>Beer Pairing</span>
+                                <span>Wings</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561404?w=300&h=160&fit=crop" alt="Samgyeopsal BBQ">
+                        <div class="restaurant-content">
+                            <h3>Samgyeopsal BBQ</h3>
+                            <p class="cuisine">Korean BBQ</p>
+                            <div class="rating">⭐ 4.8 (278 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩12,000-18,000</div>
+                                <div>🚶 15 min walk</div>
+                                <div>🍽️ Social, Fun Dining</div>
+                            </div>
+                            <p class="description">Group-friendly Korean BBQ. Cook your own meat at the table. Great for celebrations with roommates.</p>
+                            <div class="specialties">
+                                <span>Samgyeopsal</span>
+                                <span>Dak Galbi</span>
+                                <span>Bulgogi</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?w=300&h=160&fit=crop" alt="Cafe Mo">
+                        <div class="restaurant-content">
+                            <h3>Cafe Mo</h3>
+                            <p class="cuisine">Breakfast & Brunch</p>
+                            <div class="rating">⭐ 4.4 (198 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩6,000-10,000</div>
+                                <div>🚶 4 min walk</div>
+                                <div>🍽️ Cozy, Study-Friendly</div>
+                            </div>
+                            <p class="description">Popular breakfast spot. Great toast, kimbap, and coffee. Student-friendly prices and atmosphere.</p>
+                            <div class="specialties">
+                                <span>Butter Toast</span>
+                                <span>Kimbap</span>
+                                <span>Iced Coffee</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1611991437281-86bfe266d992?w=300&h=160&fit=crop" alt="Taco Fiesta">
+                        <div class="restaurant-content">
+                            <h3>Taco Fiesta</h3>
+                            <p class="cuisine">Mexican</p>
+                            <div class="rating">⭐ 4.3 (112 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩8,000-12,000</div>
+                                <div>🚶 9 min walk</div>
+                                <div>🍽️ International, Casual</div>
+                            </div>
+                            <p class="description">Craving something different? Good Mexican food by an international chef. Great for a change of pace.</p>
+                            <div class="specialties">
+                                <span>Tacos</span>
+                                <span>Burritos</span>
+                                <span>Quesadillas</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1596040422860-3f1d0f1b1f5f?w=300&h=160&fit=crop" alt="Dumpling House">
+                        <div class="restaurant-content">
+                            <h3>Dumpling House</h3>
+                            <p class="cuisine">Chinese Dumplings</p>
+                            <div class="rating">⭐ 4.6 (201 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩5,000-8,000</div>
+                                <div>🚶 11 min walk</div>
+                                <div>🍽️ No-Fuss, Filling</div>
+                            </div>
+                            <p class="description">Fresh handmade dumplings daily. Cheap and filling. Perfect meal before exams.</p>
+                            <div class="specialties">
+                                <span>Pork Dumplings</span>
+                                <span>Shrimp Dumplings</span>
+                                <span>Dumpling Soup</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1596040422860-3f1d0f1b1f5f?w=300&h=160&fit=crop" alt="Curry House Namaste">
+                        <div class="restaurant-content">
+                            <h3>Curry House Namaste</h3>
+                            <p class="cuisine">Indian Curry</p>
+                            <div class="rating">⭐ 4.5 (134 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩7,000-11,000</div>
+                                <div>🚶 13 min walk</div>
+                                <div>🍽️ Authentic, Welcoming</div>
+                            </div>
+                            <p class="description">Authentic Indian food. Owner is very accommodating with spice levels. Great vegetarian options.</p>
+                            <div class="specialties">
+                                <span>Butter Chicken</span>
+                                <span>Paneer Tikka</span>
+                                <span>Naan</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+
+                    <div class="restaurant-card">
+                        <img src="https://images.unsplash.com/photo-1596040422860-3f1d0f1b1f5f?w=300&h=160&fit=crop" alt="Tongseng Warung">
+                        <div class="restaurant-content">
+                            <h3>Tongseng Warung</h3>
+                            <p class="cuisine">Indonesian</p>
+                            <div class="rating">⭐ 4.4 (87 reviews)</div>
+                            <div class="restaurant-info">
+                                <div>💰 ₩8,000-12,000</div>
+                                <div>🚶 14 min walk</div>
+                                <div>🍽️ Local Gem, Authentic</div>
+                            </div>
+                            <p class="description">Hidden gem for Indonesian food. Try the nasi goreng and satay skewers. Not many tourists here.</p>
+                            <div class="specialties">
+                                <span>Nasi Goreng</span>
+                                <span>Sate Ayam</span>
+                                <span>Rendang</span>
+                            </div>
+                            <button class="btn btn-accent full-width">See Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips Section -->
+        <section class="section muted-bg">
+            <div class="container">
+                <h2 class="section-title">Dining Tips for International Students</h2>
+                <div class="tips-grid">
+                    <div class="tips-card">
+                        <h3 class="primary">Money-Saving Tips</h3>
+                        <ul>
+                            <li>• Look for lunch sets (점심 세트) - often cheaper than dinner</li>
+                            <li>• Eat at street stalls (노점) for the cheapest meals</li>
+                            <li>• Korean school cafeterias offer cheap student meals</li>
+                            <li>• Group dinners at BBQ places save money per person</li>
+                            <li>• Convenience store meals (GS25, CU) are very affordable</li>
+                        </ul>
+                    </div>
+
+                    <div class="tips-card">
+                        <h3 class="secondary">Cultural Dining Etiquette</h3>
+                        <ul>
+                            <li>• Don't tip - it's not customary in Korea</li>
+                            <li>• Pay at the counter or to the server after eating</li>
+                            <li>• Always ask for water - it's free and provided with every meal</li>
+                            <li>• Share food is common - it's a social experience</li>
+                            <li>• Slurp noodles - it shows appreciation for the food</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta accent">
+            <div class="container">
+                <h2>Found Your Favorite Spot?</h2>
+                <p>Share your restaurant recommendations in our Food & Dining community on Discord or Telegram!</p>
+                <a href="community.html" class="btn btn-white">Join Our Community</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>A community platform for international students at Kookmin University, helping you navigate student life in Seoul.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="community.html">Community Groups</a></li>
+                        <li><a href="food.html">Food Guide</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="mailto:info@kookmin-intl.com" class="social-icon">✉️</a>
+                        <a href="#" class="social-icon">💬</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kookmin Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
